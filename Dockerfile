@@ -1,9 +1,3 @@
-docker-redis
-============
-
-Dockerfile to build redis -> Docker Index trusted builds
-
-```
 FROM ubuntu:12.04
 
 # Update package repository
@@ -24,4 +18,3 @@ RUN mkdir -p /data/db
 ADD	./redis.conf /etc/redis.conf
 
 ENTRYPOINT ["/usr/bin/redis-server", "/etc/redis.conf"]
-```
