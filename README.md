@@ -1,7 +1,7 @@
 docker-redis
 ============
 
-Dockerfile to build redis -> Docker Index trusted builds
+Dockerfile to build redis
 
 ```
 FROM ubuntu:12.04
